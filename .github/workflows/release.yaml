@@ -19,7 +19,7 @@ env:
   GKE_CLUSTER: dev-gke-1    # Add your cluster name here.
   GKE_ZONE: us-central1-c   # Add your cluster zone here.
   DEPLOYMENT_NAME: ms-application # Add your deployment name here.
-  IMAGE: ms-application:ci
+  IMAGE: ms-application
 
 jobs:
   setup-build-publish-deploy:
