@@ -1,0 +1,6 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: dev-gke1
+  labels:
+    name: dev-gke1

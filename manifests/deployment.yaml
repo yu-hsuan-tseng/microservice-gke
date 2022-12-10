@@ -2,6 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: ms-application
+  namespace: dev-gke1
   labels:
     app: backend-svc
 spec:
