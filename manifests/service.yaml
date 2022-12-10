@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: ms-application-service
+  labels:
+    app: ms-app
+spec:
+  ports:
+    - port: 1680
+  selector:
+    app: ci-deploy
+    tier: backend
+  type: LoadBalancer
