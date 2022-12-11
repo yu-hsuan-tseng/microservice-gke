@@ -31,6 +31,26 @@ https://circleci.com/blog/
    
    https://cloud.google.com/sdk/docs/install
    
+3. Create cluster thru either UI or gcloud
+   ```sh
+   gcloud container clusters create sample-cluster
+   ```
+
+### Deployment
+
+1. Build docker image
+   ```sh
+   docker build -t <name-of-your-image> .
+   ```
+2. Run your image locally to see if it works
+   ```sh
+   docker run -p <port-number:port-number> <name-of-your-docker-image>
+   ```
+3. Deploy your application to GKE 
+   ```sh
+   kubectl apply --validate=true -f manifests
+   ```
+   
 
 <!-- CONTACT -->
 ## Contact
