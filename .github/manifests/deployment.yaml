@@ -19,7 +19,7 @@ spec:
         tier: backend
     spec:
       containers:
-        - image: gcr.io/dev-gke-1/ms-application:v4
+        - image: gcr.io/dev-gke-1/ms-application:GITHUB_SHA
           name: ms-app
           ports:
            - containerPort: 1680
