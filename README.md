@@ -48,7 +48,13 @@ https://circleci.com/blog/
    ```
 3. Deploy your application to GKE 
    ```sh
-   kubectl apply --validate=true -f manifests
+   kubectl apply --validate=true -f .github/manifests
+   ```
+### Continuous Integration / Continuous Deployment
+
+1. Set up github workflow
+   ```sh
+   Please refer to .github/workflows
    ```
    
 
