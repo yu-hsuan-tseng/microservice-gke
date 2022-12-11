@@ -9,10 +9,10 @@
 
 name: Build and Deploy to GKE
 
-on: [pull_request]
-  #  push:
-  #    branches:
-  #      - master
+on: 
+  push:
+    branches:
+      - master
 
 env:
   PROJECT_ID: ${{ secrets.GKE_PROJECT }}
