@@ -2,7 +2,9 @@
 
 ## Description
 
-`mircoservice-gke` is a simple project that demonstrate how to deploy microservice application to `Google Kubernetes Engine` 
+`mircoservice-gke` is a simple project that deploys microservice application to `Google Kubernetes Engine`. 
+
+Moreover, I implement `continuous integration & continuous deployment` using github workflow
 
 Reference of this project is list below
 
