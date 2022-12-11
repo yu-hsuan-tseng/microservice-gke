@@ -2,4 +2,39 @@
 
 ## Description
 
-`mircoservice-gke` is a simple application for GKE 
+`mircoservice-gke` is a simple project that deploys microservice application to `Google Kubernetes Engine`. 
+
+Moreover, I implement `continuous integration & continuous deployment` using github workflow
+
+Reference of this project is list below
+
+https://circleci.com/blog/
+
+<!-- GETTING STARTED -->
+## Getting Started
+
+### Prerequisites
+* Docker
+* kubectl
+* gcloud 
+* Goole Cloud Platform account
+* GKE cluster
+
+### Installation
+
+1. Install kubectl
+   ```sh
+   brew install kubectl
+   kubectl version --client
+   ```
+2. Install gcloud 
+   
+   https://cloud.google.com/sdk/docs/install
+   
+
+<!-- CONTACT -->
+## Contact
+
+yuhtseng1996@gmail.com 
+
+
